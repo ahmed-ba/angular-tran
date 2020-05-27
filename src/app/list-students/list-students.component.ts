@@ -9,19 +9,7 @@ import Swal from "sweetalert2";
   styleUrls: ["./list-students.component.css"],
 })
 export class ListStudentsComponent implements OnInit {
-  title = "Liste des étudiants";
-  label = "changer la langue";
-  cols = [
-    "Nom",
-    "Prénom",
-    "Email",
-    "Mot de passe",
-    "Age",
-    "Téléphone",
-    "Action",
-  ];
-  Delete = "Supprimer";
-  Edit = "Modifier";
+ 
   constructor(
     private studentService: StudentService,
     public translate: TranslateService
@@ -49,7 +37,7 @@ export class ListStudentsComponent implements OnInit {
   }
   delete(id: string) {
     Swal.fire({
-      title: "Vous etes Sure?",
+      title: this.translate.instant('HOME.alert'),
 
       icon: "warning",
       showCancelButton: true,

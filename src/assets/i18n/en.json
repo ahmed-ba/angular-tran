@@ -9,7 +9,8 @@
         "col_age": "age",
         "col_phoneNumber": "phoneNumber",
         "Delete":"Delete",
-        "Edit": "Edit "
+        "Edit": "Edit ",
+        "alert":"Are you sure?"
 
     }
   }
