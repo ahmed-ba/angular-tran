@@ -1,0 +1,20 @@
+{
+    "HOME": {
+        "TITLE": "Liste des étudiants",
+        "SELECT": "Changer la langue",
+        "col_firstname": "nom",
+        "col_lastname": "prenom",
+        "col_email": "courrier",
+        "col_password": "mot de passe",
+        "col_age": "age",
+        "col_phoneNumber": "numéro de téléphone", 
+        "Delete":"supprimer",
+        "Edit": "Modifier "
+
+
+
+
+
+        
+    }
+}

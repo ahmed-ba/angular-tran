@@ -1,0 +1,16 @@
+{
+    "HOME": {
+      "TITLE": "List of students",
+      "SELECT": "Change language",
+      "col_firstname": "firstename",
+        "col_lastname": "lastname",
+        "col_email": "email",
+        "col_password": "passeword",
+        "col_age": "age",
+        "col_phoneNumber": "phoneNumber",
+        "Delete":"Delete",
+        "Edit": "Edit "
+
+    }
+  }
+  
